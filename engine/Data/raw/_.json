@@ -1,0 +1,207 @@
+{
+  "mainFields": {
+    "id": {
+      "label": "ID",
+      "value": 10313
+    },
+    "status": {
+      "label": "Статус",
+      "value": "Вкл",
+      "color": "#36C2A1",
+      "type": "bool-with-drop",
+      "name": "status"
+    },
+    "site": {
+      "label": "Сайт",
+      "value": "E-change",
+      "type": "select",
+      "name": "site"
+    },
+    "group": {
+      "label": "Группа",
+      "value": "RUSSIA",
+      "type": "select",
+      "name": "group"
+    },
+    "subGroup": {
+      "label": "Подгруппа",
+      "value": "CASH RUB",
+      "type": "select",
+      "name": "subGroup"
+    },
+    "rateSource": {
+      "label": "Источник курса",
+      "value": "grinex"
+    },
+    "feePercent": {
+      "label": "Ставка (%)",
+      "value": "0.70",
+      "type": "data",
+      "name": "feePercent"
+    },
+    "isBestchangeSniperEnabled": {
+      "label": "Снайпер БЧ",
+      "value": "Вкл",
+      "type": "bool-with-drop",
+      "name": "isBestchangeSniperEnabled",
+      "color": "#36C2A1"
+    },
+    "currencyFrom": {
+      "label": "Отдает клиент",
+      "value": "TRC-20 (USDT)",
+      "type": "select",
+      "name": "currencyFrom"
+    },
+    "amountGive": {
+      "label": "Отдает клиент",
+      "value": "1.00000000",
+      "type": "data",
+      "name": "amountGive"
+    },
+    "currencyTo": {
+      "label": "Получает клиент",
+      "value": "Адлер (RUB)",
+      "type": "select",
+      "name": "currencyTo"
+    },
+    "amountGet": {
+      "label": "Получает клиент",
+      "value": "79.54923000",
+      "type": "data",
+      "name": "amountGet"
+    },
+    "bhCourse": {
+      "label": "Курс на БЧ",
+      "value": "79.38809997"
+    }
+  },
+  "expandedFields": {
+    "direction": {
+      "label": "Направление",
+      "value": 10313
+    },
+    "createdAt": {
+      "label": "Дата создания",
+      "value": "2026-02-25 15:46:46"
+    },
+    "directionCodes": {
+      "label": "Направление",
+      "value": "TRC-20 (USDT) > Адлер (RUB)"
+    },
+    "count": {
+      "label": "Количество",
+      "value": "1.00000000 > 79.54923000"
+    },
+    "bhCourse": {
+      "label": "Курс на БЧ",
+      "value": "79.38809997"
+    },
+    "rateSource": {
+      "label": "Курс источника",
+      "value": "80.11000000"
+    },
+    "feePercent": {
+      "label": "Ставка (%)",
+      "value": "0.70",
+      "type": "data",
+      "name": "feePercent"
+    },
+    "placeOnBestchange": {
+      "label": "Место на БЧ",
+      "value": 15
+    },
+    "holdPlace": {
+      "label": "Удержание места",
+      "value": null,
+      "type": "data",
+      "name": "holdPlace"
+    },
+    "decimalPlaces": {
+      "label": "Знаки после запятой",
+      "value": 8,
+      "type": "data",
+      "name": "decimalPlaces"
+    },
+    "kvvp": {
+      "label": "КВВП",
+      "value": null,
+      "type": "data",
+      "name": "kvvp"
+    },
+    "listed": {
+      "label": "Листинг",
+      "value": "Вкл",
+      "type": "bool-with-drop",
+      "name": "listed"
+    },
+    "bestchangeListed": {
+      "label": "Листинг БЧ",
+      "value": "Вкл"
+    },
+    "position": {
+      "label": "Позиция в панели анализа",
+      "value": null,
+      "name": "position"
+    },
+    "reserve": {
+      "label": "Резерв",
+      "value": "100000000.00000000",
+      "type": "data",
+      "name": "reserve"
+    },
+    "minAmount": {
+      "label": "Мин сумма",
+      "value": "33941.24619434",
+      "type": "data",
+      "name": "minAmount"
+    },
+    "minAmountFiat": {
+      "label": "Мин сумма (фиат)",
+      "value": "2700000.00"
+    },
+    "maxAmount": {
+      "label": "Макс сумма",
+      "value": "245131.22251466",
+      "type": "data",
+      "name": "maxAmount"
+    },
+    "maxAmountFiat": {
+      "label": "Макс сумма (фиат)",
+      "value": "19500000.00"
+    },
+    "extraLabels": {
+      "label": "Метки",
+      "value": "verifying, delivery",
+      "type": "multiple-select",
+      "name": "extraLabels"
+    },
+    "floating": {
+      "label": "Floating",
+      "value": "0.3",
+      "type": "data",
+      "name": "floating"
+    },
+    "criticalPlace": {
+      "label": "Критическое место",
+      "value": null,
+      "type": "data",
+      "name": "criticalPlace"
+    },
+    "lastNotificationAt": {
+      "label": "Последнее уведомление",
+      "value": "-"
+    },
+    "chuvm": {
+      "label": "ЧУВМ",
+      "value": null,
+      "type": "data",
+      "name": "chuvm"
+    },
+    "changeReason": {
+      "label": "Причина изменения",
+      "value": null,
+      "type": "data",
+      "name": "changeReason"
+    }
+  }
+}

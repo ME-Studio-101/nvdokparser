@@ -1,0 +1,18 @@
+setuptools # установка внутренних пакетов
+
+requests # HTTP-запросы
+bs4 # Beautiful Soup 4 | парсинг HTML
+pytz # временные зоны
+
+schedule # планировщик задач
+
+pyotp # OTP генератор | Google Authenticator
+
+sqlalchemy # ORM
+# bcrypt # хеширование паролей
+
+aiogram # библиотека для работы с Telegram API
+APScheduler # асинхронный планировщик задач
+
+google-api-python-client # API Google
+oauth2client # OAuth 2.0
